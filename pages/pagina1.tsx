@@ -16,7 +16,7 @@ export async function getServerSideProps() {
   };
 }
 
-export default function Pagina1(props) {
+export default function Pagina1(props:any) {
   return (
     <Layout>
       <Head>
