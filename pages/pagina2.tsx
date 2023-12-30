@@ -17,7 +17,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Pagina2(props) {
+export default function Pagina2(props:any) {
   return (
     <Layout>
       <Head>
