@@ -16,7 +16,7 @@ export type {
 };
 
 export default function article() {
-	rturn ("")
+	return ("")
 };
 
 	
