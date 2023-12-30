@@ -17,7 +17,7 @@ export async function getServerSideProps() {
   };
 }
 
-export default function Pagina3(props) {
+export default function Pagina3(props:any) {
   return (
     <Layout>
       <Head>
@@ -26,7 +26,7 @@ export default function Pagina3(props) {
       </Head>
       <main>
         <h1>Usuários</h1>
-        {props.users.map((user) => <p><Link href={user.id + ""}>{user.name}</Link></p>)}
+        {props.users.map((user:any) => <p><Link href={user.id + ""}>{user.name}</Link></p>)}
       </main>
     </Layout>
   );
