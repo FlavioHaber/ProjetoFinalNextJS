@@ -2,7 +2,7 @@ import Layout from "./components/layout";
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Pagina3(props) {
+export default function Pagina3(props:any) {
     return (
         <Layout>
             <Head>
