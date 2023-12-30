@@ -13,8 +13,6 @@ interface ArticleInfo {
 export type {
 	ArticleMeta,
 	ArticleInfo
-}
+};
 
-export default Article() {
- return ("")
-	 };
+
