@@ -8,14 +8,14 @@ export default function Pagina5() {
     useEffect(() => {
         const collectionID = 928423;  //Beach & Coastal
         const galleryContainer = document.querySelector('.gallery-container');
-        galleryContainer.innerHTML = "";
+        //galleryContainer.innerHTML = "";
         for (let i = 0; i < 18; i++) {
             fetch(`https://source.unsplash.com/collection/${collectionID}/480x480`)
                 .then((response) => {
                     let galleryItem = document.createElement('span');
                     galleryItem.classList.add('gallery-item');
                     galleryItem.innerHTML = `<Image src="${response.url}" alt="gallery image"/>`
-                    galleryContainer.append(galleryItem);
+                    //galleryContainer.append(galleryItem);
                 })
         }
     }, []);
