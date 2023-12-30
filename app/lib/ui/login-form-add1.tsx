@@ -7,7 +7,7 @@ export default function MyForm() {
   const [inputSenha, setInputSenha] = useState('');
   const [inputError, setInputError] = useState('');
 
-  function handleInputChangeNome(event) {
+  function handleInputChangeNome(event:any) {
     const value = event.target.value;
     setInputNome(value);
 
@@ -24,7 +24,7 @@ export default function MyForm() {
       }
   }
 
-  function handleInputChangeEmail(event) {
+  function handleInputChangeEmail(event:any) {
     const value = event.target.value;
     setInputEmail(value);
 
@@ -35,7 +35,7 @@ export default function MyForm() {
     }
   }
 
-  function handleInputChangeSenha(event) {
+  function handleInputChangeSenha(event:any) {
     const value = event.target.value;
     setInputSenha(value);
 
@@ -46,7 +46,7 @@ export default function MyForm() {
     }
   }
 
-  function handleSubmit(event) {
+  function handleSubmit(event:any) {
     event.preventDefault();
 
     // Neste local deverá ser incluido a rotina de gravação no banco de dados
