@@ -16,5 +16,5 @@ export type {
 }
 
 export default Article() {
- return ()
+ return ("")
 	 }
