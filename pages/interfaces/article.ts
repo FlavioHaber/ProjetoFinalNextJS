@@ -15,6 +15,8 @@ export type {
 	ArticleInfo
 };
 
-export default Article();
+export default function article() {
+	rturn ("")
+};
 
 	
