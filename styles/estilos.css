@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-container {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}

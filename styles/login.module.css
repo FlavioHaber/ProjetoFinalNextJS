@@ -1,0 +1,13 @@
+.container {
+    background-color: darkolivegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.title h1 {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+}
